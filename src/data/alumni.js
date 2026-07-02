@@ -1,0 +1,43 @@
+const alumni = [
+  {
+    image: "https://i.pinimg.com/originals/85/79/20/857920d09b11713234a3227825bc9246.jpg",
+    name: "Olivia",
+    role: "Software Engineer",
+    description: "Working at Google.",
+    skills: ["React", "Java", "Cloud"],
+    buttonText: "LinkedIn",
+    showButton: true,
+    isVerified: true,
+    theme: "dark",
+    rating: "⭐⭐⭐⭐⭐",
+    borderColor: "#ef4444",
+  },
+  {
+    image: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/11/wuthering-waves-wuwa-2-8-teaser-upcoming-character-chisa-drip-marketing-list-qiuyuan-next-banner-upcoming.jpg?q=49&fit=crop&w=825&dpr=2",
+    name: "Chisa",
+    role: "Product Designer",
+    description: "Creating digital products.",
+    skills: ["UX", "UI", "Figma"],
+    buttonText: "LinkedIn",
+    showButton: true,
+    isVerified: false,
+    theme: "light",
+    rating: "⭐⭐⭐⭐",
+    borderColor: "#8b5cf6",
+  },
+  {
+    image: "https://shop.ldrescdn.com/rms/ld-space/process/img/71d9169c670f4ccbbd3ad7590e4a0f811764212919.jpeg?1764212922423&x-oss-process=image/format,webp",
+    name: "Lucilla",
+    role: "Data Analyst",
+    description: "Turning data into insights.",
+    skills: ["SQL", "Python", "Power BI"],
+    buttonText: "LinkedIn",
+    showButton: true,
+    isVerified: true,
+    theme: "light",
+    rating: "⭐⭐⭐⭐⭐",
+    borderColor: "#22c55e",
+  },
+];
+
+export default alumni;

@@ -1,0 +1,43 @@
+const mentors = [
+  {
+    image: "https://www.bing.com/th/id/OIP.enljc3ee51hv0mQ1HVC0LAHaKN?w=193&h=267&c=8&rs=1&qlt=90&o=6&pid=ImgAns&rm=2",
+    name: "Shorekeeper",
+    role: "React Mentor",
+    description: "Helping students learn React.",
+    skills: ["React", "JavaScript", "Node.js"],
+    buttonText: "View Profile",
+    showButton: true,
+    isVerified: true,
+    theme: "light",
+    rating: "⭐⭐⭐⭐⭐",
+    borderColor: "#3b82f6",
+  },
+  {
+    image: "https://th.bing.com/th/id/OIP.ls8LhBADlhuL-QDH_7TrGgHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
+    name: "Emma Watson",
+    role: "UI/UX Mentor",
+    description: "Designing beautiful user experiences.",
+    skills: ["Figma", "Adobe XD", "UI"],
+    buttonText: "View Profile",
+    showButton: true,
+    isVerified: true,
+    theme: "dark",
+    rating: "⭐⭐⭐⭐",
+    borderColor: "#ec4899",
+  },
+  {
+    image: "https://tse3.mm.bing.net/th/id/OIP.SBzwf1EMeDHxNDyRATDpUQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
+    name: "Hiyuki",
+    role: "Career Mentor",
+    description: "Guiding students towards success.",
+    skills: ["Interview", "Resume", "Career"],
+    buttonText: "View Profile",
+    showButton: false,
+    isVerified: false,
+    theme: "light",
+    rating: "⭐⭐⭐⭐⭐",
+    borderColor: "#10b981",
+  },
+];
+
+export default mentors;
